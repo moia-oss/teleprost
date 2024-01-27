@@ -9,6 +9,10 @@ repository = "https://github.com/moia-oss/teleprost"
 [lib]
 proc-macro = true
 
+[[test]]
+name = "tests"
+path = "tests/test.rs"
+
 [dependencies] 
 proc-macro2 = "1.0.78"
 quote = "1.0.35"
